@@ -18,3 +18,8 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## Introduction
+
+### Installation
+The code is tested on Ubuntu 14.04. Since our autoscanning system is based on [ElasticFusion](https://github.com/mp3guy/ElasticFusion)--a real-time dense visual SLAM method, you may need install their requirements first. There are also some other dependencies that we list below.
+* OpenCV >= 3.0
+* cuDNN 5.1
