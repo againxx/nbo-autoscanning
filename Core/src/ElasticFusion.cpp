@@ -973,7 +973,7 @@ void ElasticFusion::savePatchPly()
 			Eigen::Vector4f col = mapData[(i * 3) + 1];
 
 			int label = static_cast<int>(col[1]) >> 8 & 0xFFFF;
-			if (1)//label != 0)
+			if (label != 0)
 			{
 				std::array<float, 10> pointData;
 				for (int i = 0; i < 3; ++i)
@@ -994,7 +994,7 @@ void ElasticFusion::savePatchPly()
 
 	for (const auto & patch : patchPointData)
 	{
-		if (patch.second.size() < 50)
+		if (patch.second.size() < 100)
 			continue;
 		std::ofstream patchFile(patchDir + "/" + std::to_string(patch.first) + ".ply");
 		if (!patchFile)
