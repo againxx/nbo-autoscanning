@@ -1,0 +1,4 @@
+/head_camera/rgb/image_raw
+/head_camera/depth_registered/image_raw
+/base_pose_ground_truth
+/head_camera_rgb_optical_frame
