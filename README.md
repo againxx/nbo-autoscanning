@@ -57,6 +57,10 @@ In addition to ElasticFusion original parameters, we add several new parameters 
 * -rr : Use ROS topic as real live input (newly added).
 
 ### Demo
+For a quick demo, please launch it as follow:
+```bash
+rosrun iroboscan iroboscan -cal calibration.txt -sg sim.txt -o
+```
 
 ### Auto Segmentation
 Besides `iroboscan` package, we also provide another package `autoseg` which can be used to automatically segment CAD models into pre-segmented components. For more details, please refer to our [paper](http://kevinkaixu.net/papers/liu_sig18_nbo.pdf) and `AutoSpin.py`.
