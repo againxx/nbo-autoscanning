@@ -24,3 +24,6 @@ The code is tested on Ubuntu 14.04. Since our autoscanning system is based on [E
 * [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu)
 * OpenCV >= 3.0
 * [cuDNN 5.1](https://developer.nvidia.com/cudnn)
+
+### Benchmark
+There is an extra benchmark that you can find [here](https://github.com/againxx/OASC-Benchmark)
