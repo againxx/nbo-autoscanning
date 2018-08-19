@@ -59,7 +59,7 @@ In addition to ElasticFusion original parameters, we add several new parameters 
 ### Demo
 
 ### Auto Segmentation
-Besides `iroboscan` package, we also provide another package `autoseg` which can be used to automatically segment CAD models into pre-segmented components. For more details, please refer to our [paper](http://kevinkaixu.net/papers/liu_sig18_nbo.pdf) and `AutoSpin.py`
+Besides `iroboscan` package, we also provide another package `autoseg` which can be used to automatically segment CAD models into pre-segmented components. For more details, please refer to our [paper](http://kevinkaixu.net/papers/liu_sig18_nbo.pdf) and `AutoSpin.py`.
 
 ## Benchmark
-There is an extra benchmark that you can find [here](https://github.com/againxx/OASC-Benchmark)
+There is an extra benchmark that you can find [here](https://github.com/againxx/OASC-Benchmark).
